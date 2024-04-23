@@ -341,4 +341,84 @@ var (
 		ResponsiblePerson:   "padillon",
 		OwningProduct:       ocpSpecific,
 	}
+
+	FeatureGateClusterAPIInstallAWS = FeatureGateName("ClusterAPIInstallAWS")
+	clusterAPIInstallAWS            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallAWS,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "r4f4",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallAzure = FeatureGateName("ClusterAPIInstallAzure")
+	clusterAPIInstallAzure            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallAzure,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "jhixson74",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallGCP = FeatureGateName("ClusterAPIInstallGCP")
+	clusterAPIInstallGCP            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallGCP,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "bfournie",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallIBMCloud = FeatureGateName("ClusterAPIInstallIBMCloud")
+	clusterAPIInstallIBMCloud            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallIBMCloud,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "cjschaef",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallNutanix = FeatureGateName("ClusterAPIInstallNutanix")
+	clusterAPIInstallNutanix            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallNutanix,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "yanhua121",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallOpenStack = FeatureGateName("ClusterAPIInstallOpenStack")
+	clusterAPIInstallOpenStack            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallOpenStack,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "stephenfin",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallPowerVS = FeatureGateName("ClusterAPIInstallPowerVS")
+	clusterAPIInstallPowerVS            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallPowerVS,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "mjturek",
+		OwningProduct:       ocpSpecific,
+	}
+
+	FeatureGateClusterAPIInstallVSphere = FeatureGateName("ClusterAPIInstallVSphere")
+	clusterAPIInstallVSphere            = FeatureGateDescription{
+		FeatureGateAttributes: FeatureGateAttributes{
+			Name: FeatureGateClusterAPIInstallVSphere,
+		},
+		OwningJiraComponent: "Installer",
+		ResponsiblePerson:   "rvanderp3",
+		OwningProduct:       ocpSpecific,
+	}
 )
