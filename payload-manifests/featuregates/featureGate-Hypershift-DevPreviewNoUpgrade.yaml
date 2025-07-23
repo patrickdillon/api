@@ -48,9 +48,6 @@
                 ],
                 "enabled": [
                     {
-                        "name": "AWSClusterHostedDNS"
-                    },
-                    {
                         "name": "AWSDedicatedHosts"
                     },
                     {
@@ -133,12 +130,6 @@
                     },
                     {
                         "name": "ExternalSnapshotMetadata"
-                    },
-                    {
-                        "name": "GCPClusterHostedDNS"
-                    },
-                    {
-                        "name": "GCPCustomAPIEndpoints"
                     },
                     {
                         "name": "GatewayAPI"

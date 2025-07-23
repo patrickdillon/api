@@ -321,22 +321,6 @@ var (
 					enhancementPR(legacyFeatureGateWithoutEnhancement).
 					mustRegister()
 
-	FeatureGateGCPClusterHostedDNS = newFeatureGate("GCPClusterHostedDNS").
-					reportProblemsToJiraComponent("Installer").
-					contactPerson("barbacbd").
-					productScope(ocpSpecific).
-					enhancementPR(legacyFeatureGateWithoutEnhancement).
-					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
-					mustRegister()
-
-	FeatureGateAWSClusterHostedDNS = newFeatureGate("AWSClusterHostedDNS").
-					reportProblemsToJiraComponent("Installer").
-					contactPerson("barbacbd").
-					productScope(ocpSpecific).
-					enhancementPR(legacyFeatureGateWithoutEnhancement).
-					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
-					mustRegister()
-
 	FeatureGateMixedCPUsAllocation = newFeatureGate("MixedCPUsAllocation").
 					reportProblemsToJiraComponent("NodeTuningOperator").
 					contactPerson("titzhak").
@@ -703,14 +687,6 @@ var (
 					enhancementPR("https://github.com/openshift/enhancements/pull/1492").
 					enableIn(configv1.DevPreviewNoUpgrade).
 					mustRegister()
-
-	FeatureGateGCPCustomAPIEndpoints = newFeatureGate("GCPCustomAPIEndpoints").
-						reportProblemsToJiraComponent("Installer").
-						contactPerson("barbacbd").
-						productScope(ocpSpecific).
-						enhancementPR("https://github.com/openshift/enhancements/pull/1492").
-						enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
-						mustRegister()
 
 	FeatureGateDyanmicServiceEndpointIBMCloud = newFeatureGate("DyanmicServiceEndpointIBMCloud").
 							reportProblemsToJiraComponent("Cloud Compute / IBM Provider").

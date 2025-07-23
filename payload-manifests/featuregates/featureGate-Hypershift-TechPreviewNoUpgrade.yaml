@@ -66,9 +66,6 @@
                 ],
                 "enabled": [
                     {
-                        "name": "AWSClusterHostedDNS"
-                    },
-                    {
                         "name": "AWSDedicatedHosts"
                     },
                     {
@@ -139,12 +136,6 @@
                     },
                     {
                         "name": "ExternalOIDCWithUIDAndExtraClaimMappings"
-                    },
-                    {
-                        "name": "GCPClusterHostedDNS"
-                    },
-                    {
-                        "name": "GCPCustomAPIEndpoints"
                     },
                     {
                         "name": "GatewayAPI"
